@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5175FBD2284A3B43004C51EA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175FBD1284A3B43004C51EA /* UIColorExtension.swift */; };
+		5175FBD4284B92AE004C51EA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175FBD3284B92AE004C51EA /* UIColorExtension.swift */; };
 		51C882982848BA8A0071A67D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C882972848BA8A0071A67D /* AppDelegate.swift */; };
 		51C8829A2848BA8A0071A67D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C882992848BA8A0071A67D /* SceneDelegate.swift */; };
 		51C8829C2848BA8A0071A67D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8829B2848BA8A0071A67D /* MainTabBarController.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5175FBD1284A3B43004C51EA /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		5175FBD3284B92AE004C51EA /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		51C882942848BA8A0071A67D /* CustomTabBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C882972848BA8A0071A67D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C882992848BA8A0071A67D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 				51C882972848BA8A0071A67D /* AppDelegate.swift */,
 				51C882992848BA8A0071A67D /* SceneDelegate.swift */,
 				51C8829B2848BA8A0071A67D /* MainTabBarController.swift */,
-				5175FBD1284A3B43004C51EA /* UIColorExtension.swift */,
+				5175FBD3284B92AE004C51EA /* UIColorExtension.swift */,
 				51C882AB2848BD2B0071A67D /* HomeViewController.swift */,
 				51C882AD2848BD560071A67D /* PersonViewController.swift */,
 				51C882AF2848BD7D0071A67D /* SettingsViewController.swift */,
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51C882AE2848BD560071A67D /* PersonViewController.swift in Sources */,
-				5175FBD2284A3B43004C51EA /* UIColorExtension.swift in Sources */,
+				5175FBD4284B92AE004C51EA /* UIColorExtension.swift in Sources */,
 				51C8829C2848BA8A0071A67D /* MainTabBarController.swift in Sources */,
 				51C882982848BA8A0071A67D /* AppDelegate.swift in Sources */,
 				51C8829A2848BA8A0071A67D /* SceneDelegate.swift in Sources */,

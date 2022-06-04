@@ -17,18 +17,21 @@ class MainTabBarController: UITabBarController {
     
     private func generateTabBar() {
         viewControllers = [
-        generateVC(
-            viewController: HomeViewController(),
-            title: "Home",
-            image: UIImage(systemName: "house.fill")),
-        generateVC(
-            viewController: PersonViewController(),
-            title: "Personal Info",
-            image: UIImage(systemName: "person.fill")),
-        generateVC(
-            viewController: SettingsViewController(),
-            title: "Settings",
-            image: UIImage(systemName: "slider.horizontal.3"))
+            generateVC(
+                viewController: HomeViewController(),
+                title: "Home",
+                image: UIImage(systemName: "house.fill")
+            ),
+            generateVC(
+                viewController: PersonViewController(),
+                title: "Personal Info",
+                image: UIImage(systemName: "person.fill")
+            ),
+            generateVC(
+                viewController: SettingsViewController(),
+                title: "Settings",
+                image: UIImage(systemName: "slider.horizontal.3")
+            )
         ]
     }
     
@@ -48,21 +51,25 @@ class MainTabBarController: UITabBarController {
         
         let bezierPath = UIBezierPath(
             roundedRect: CGRect(
-            x: positionOnX,
-            y: tabBar.bounds.minY - positionOnY,
-            width: width,
-            height: height),
-            cornerRadius: height / 2)
+                x: positionOnX,
+                y: tabBar.bounds.minY - positionOnY,
+                width: width,
+                height: height
+            ),
+            cornerRadius: height / 2
+        )
         
         roundLayer.path = bezierPath.cgPath
+        
         tabBar.layer.insertSublayer(roundLayer, at: 0)
         
         tabBar.itemWidth = width / 5
         tabBar.itemPositioning = .centered
         
-        roundLayer.fillColor = UIColor.mainWhite().cgColor
-        tabBar.tintColor = .tabBarItemAccent()
-        tabBar.unselectedItemTintColor = .tabBarItemLight()
+        roundLayer.fillColor = UIColor.mainWhite.cgColor
+        
+        tabBar.tintColor = .tabBarItemAccent
+        tabBar.unselectedItemTintColor = .tabBarItemLight
     }
 }
 
